@@ -22,6 +22,7 @@ terraform {
 provider "azurerm" {
   features {}
 
+  
   subscription_id = var.GITHUB_AZ_SUB
     client_id       = "f30d30cf-bf20-4b62-8192-eb4019f35ad1"
     client_secret   = "iyIeh.i_KapdTX7YW5f3xXNv-2.K8Pwz5l"
