@@ -30,7 +30,7 @@ jobs:
           tf_actions_comment: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-   terraform:
+          
     name: 'TerraformValidate'
     runs-on: ubuntu-latest
     steps:
