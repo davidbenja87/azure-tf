@@ -7,4 +7,5 @@ resource "azurerm_resource_group" "purview_rg" {
 	description = "BDS dev resource group"
   }
 
+
 }
