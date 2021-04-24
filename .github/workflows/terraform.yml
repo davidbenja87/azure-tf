@@ -30,8 +30,8 @@ jobs:
           tf_actions_comment: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    name: 'Terraform'
+   terraform:
+    name: 'TerraformValidate'
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
