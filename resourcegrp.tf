@@ -8,4 +8,5 @@ resource "azurerm_resource_group" "purview_rg" {
   }
 
 
+
 }
